@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
             <h1 className='text-2xl text-blue-700'> How will you improve the performance of a React Application?</h1>
             <p>
                 1. Using Immutable Data Structures

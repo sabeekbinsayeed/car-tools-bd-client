@@ -38,7 +38,7 @@ const Banner = () => {
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
                             <h5 class="text-xl text-white ">Get details information</h5>
-                            <button onClick={() => { navigate('/dashboard') }} className='bg-blue-500 btn  mt-1'>Visit dashboard</button>
+                            <button onClick={() => { navigate('/dashboard') }} className='bg-blue-500 hover:bg-blue-600  btn  mt-1'>Visit dashboard</button>
 
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Banner = () => {
 
 
                             <h5 class="text-xl text-white ">Gather knowledge from us</h5>
-                            <button onClick={() => { navigate('/blogs') }} className='bg-blue-500 btn mt-1'>Reads Blogs</button>
+                            <button onClick={() => { navigate('/blogs') }} className='bg-blue-500 hover:bg-blue-600  btn  mt-1'>Read Blogs</button>
 
                         </div>
                     </div>
@@ -66,7 +66,8 @@ const Banner = () => {
                         />
                         <div class="carousel-caption hidden md:block absolute text-center">
                             <h5 class="text-xl text-white ">Your detail information</h5>
-                            <button onClick={() => { navigate('/portfolio') }} className='bg-blue-500 btn mt-1'>Your portfolio</button>
+                            <button onClick={() => { navigate('/portfolio') }} className='bg-blue-500 hover:bg-blue-600  btn  mt-1'>Portfolio</button>
+
                         </div>
                     </div>
                 </div>

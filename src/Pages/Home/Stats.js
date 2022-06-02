@@ -10,7 +10,7 @@ const Stats = () => {
                     <h2 class="text-3xl font-bold mb-20">Why is it so great?</h2>
 
                     <div class="grid lg:gap-x-12 lg:grid-cols-3">
-                        <div class="mb-12 lg:mb-0">
+                        <div class="mb-12 lg:mb-0 hover:scale-110 transition duration-300 ease-in-out">
                             <div class="rounded-lg shadow-lg h-full block bg-white">
                                 <div class="flex justify-center">
                                     <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
@@ -36,7 +36,7 @@ const Stats = () => {
                             </div>
                         </div>
 
-                        <div class="mb-12 lg:mb-0">
+                        <div class="mb-12 lg:mb-0 hover:scale-110 transition duration-300 ease-in-out">
                             <div class="rounded-lg shadow-lg h-full block bg-white">
                                 <div class="flex justify-center">
                                     <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">
@@ -62,7 +62,7 @@ const Stats = () => {
                             </div>
                         </div>
 
-                        <div class="">
+                        <div class="hover:scale-110 transition duration-300 ease-in-out">
                             <div class="rounded-lg shadow-lg h-full block bg-white">
                                 <div class="flex justify-center">
                                     <div class="p-4 bg-blue-600 rounded-full shadow-lg inline-block -mt-8">

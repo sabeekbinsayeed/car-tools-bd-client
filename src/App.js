@@ -26,6 +26,7 @@ import MyProfiles from './Pages/Myprofile/MyProfiles';
 import DeleteProducts from './Pages/Dashboard/DeleteProducts';
 import Reviews from './Pages/Home/Reviews';
 import Footer from './Pages/Shared/Footer';
+import FAQ from './Pages/FAQ/FAQ';
 // import MyProfiles from './Pages/Myprofile/MyProfiles';
 
 
@@ -39,12 +40,13 @@ function App() {
 
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        {/* <Route path="/myprofiles" element={<MyProfiles></MyProfiles>}></Route> */}
+
         <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/review" element={<Reviews></Reviews>}></Route>
+        <Route path="/faq" element={<FAQ></FAQ>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
-        {/* <Route path="/myprofile" element={<Myprofile></Myprofile>}></Route> */}
+
         <Route path="purchase/:id" element={<RequireAuth>
           <Purchase />
         </RequireAuth>}></Route>

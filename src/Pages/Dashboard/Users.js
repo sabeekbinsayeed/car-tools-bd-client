@@ -60,7 +60,7 @@ const Users = () => {
                 return <div>refresh again</div></>}</h2>
 
             <div class="lg:overflow-x-auto">
-                <table class="table lg:w-full table-compact">
+                <table class="table w-full table-compact">
 
                     <thead>
                         <tr>

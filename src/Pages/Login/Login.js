@@ -40,7 +40,10 @@ const Login = () => {
 
         }
         , [token, from, navigate])
+    if (!token && loading) {
+        return <Loading></Loading>
 
+    }
     if (loading || googleLoading) {
         return <Loading></Loading>
 

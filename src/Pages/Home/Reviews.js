@@ -7,7 +7,7 @@ const Reviews = () => {
         fetch('https://safe-plains-19618.herokuapp.com/review').then(res => res.json()).then(data => setReviews(data))
     }, [])
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
 
             <div class="container my-12 px-6 mx-auto">
 

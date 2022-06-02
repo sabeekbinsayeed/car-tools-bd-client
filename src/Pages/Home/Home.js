@@ -11,7 +11,7 @@ import Video from './Video';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{ minHeight: '100vh' }}>
 
             <Banner></Banner>
             <Tools></Tools>

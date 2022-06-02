@@ -32,7 +32,7 @@ const DeleteProducts = () => {
     return (
         <div>
             <div class="overflow-x-auto">
-                <table class="table lg:w-full table-compact">
+                <table class="table w-full table-compact">
                     <thead>
                         <tr>
                             <th></th>
