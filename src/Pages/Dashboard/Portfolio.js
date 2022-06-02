@@ -18,7 +18,7 @@ const Portfolio = () => {
                 <li>ES6</li>
                 <li>React</li>
                 <li>React Router DOM</li>
-                <li>React Query</li>
+                <li>React Query </li>
                 <li>firebase</li>
                 <li>Node</li>
                 <li>Express</li>
