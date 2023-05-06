@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const UserRow = ({ user, refetch }) => {
     const { email, role, name } = user;
     const makeAdmin = () => {
-        fetch(`https://safe-plains-19618.herokuapp.com/user/admin/${email}`, {
+        fetch(`https://manufacture-deploy-again.vercel.app/user/admin/${email}`, {
             method: 'PUT',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

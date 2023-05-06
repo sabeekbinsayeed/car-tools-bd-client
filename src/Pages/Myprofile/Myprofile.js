@@ -13,17 +13,17 @@ const Myprofile = () => {
 
     // const [info, setInfo] = useState([]);
     // useEffect(() => {
-    //     fetch(`https://safe-plains-19618.herokuapp.com/profile?email=${user.email}`).then(res => res.json()).then(data => setUserInfo(res))
+    //     fetch(`https://manufacture-deploy-again.vercel.app/profile?email=${user.email}`).then(res => res.json()).then(data => setUserInfo(res))
 
     // }, [])
 
     // useEffect(() => {
-    //     fetch(`https://safe-plains-19618.herokuapp.com/profile?email=${user?.email}`).then(res => res.json()).then(data => { setInfo(data); console.log(data) })
+    //     fetch(`https://manufacture-deploy-again.vercel.app/profile?email=${user?.email}`).then(res => res.json()).then(data => { setInfo(data); console.log(data) })
     // }, [])
 
 
 
-    const { data: userInfo, isLoading, refetch } = useQuery('users', () => fetch(`https://safe-plains-19618.herokuapp.com/profile?email=${user.email}`, {
+    const { data: userInfo, isLoading, refetch } = useQuery('users', () => fetch(`https://manufacture-deploy-again.vercel.app/profile?email=${user.email}`, {
         // headers: {
         //     authorization: `Bearer ${localStorage.getItem('accessToken')}`
         // }
@@ -52,7 +52,7 @@ const Myprofile = () => {
 
         console.log(user)
 
-        fetch(`https://safe-plains-19618.herokuapp.com/profile/`, {
+        fetch(`https://manufacture-deploy-again.vercel.app/profile/`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

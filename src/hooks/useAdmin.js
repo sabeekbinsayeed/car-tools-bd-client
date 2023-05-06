@@ -9,7 +9,7 @@ const useAdmin = user => {
         const email = user?.email;
         console.log(email, 'email pasce')
         if (email) {
-            fetch(`https://safe-plains-19618.herokuapp.com/admin/${email}`, {
+            fetch(`https://manufacture-deploy-again.vercel.app/admin/${email}`, {
                 method: 'GET',
                 headers: {
                     'content-type': 'application/json',

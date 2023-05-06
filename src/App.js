@@ -27,6 +27,7 @@ import DeleteProducts from './Pages/Dashboard/DeleteProducts';
 import Reviews from './Pages/Home/Reviews';
 import Footer from './Pages/Shared/Footer';
 import FAQ from './Pages/FAQ/FAQ';
+import Task from './Pages/Home/Task';
 
 
 

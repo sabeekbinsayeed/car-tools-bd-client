@@ -7,7 +7,7 @@ import DeleteToolModal from './DeleteToolModal';
 
 const DeleteProducts = () => {
     const [deleting, setDeleting] = useState(null);
-    const { data: tools, isLoading, refetch } = useQuery('doctors', () => fetch(`https://safe-plains-19618.herokuapp.com/tools`, {
+    const { data: tools, isLoading, refetch } = useQuery('doctors', () => fetch(`https://manufacture-deploy-again.vercel.app/tools`, {
         // headers: {
         //     authorization: `Bearer ${localStorage.getItem('accessToken')}`
         // }

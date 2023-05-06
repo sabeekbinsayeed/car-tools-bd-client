@@ -10,7 +10,7 @@ const useToken = (user) => {
         const currentUser = { email: email };
         console.log(email)
         if (email) {
-            fetch(`https://safe-plains-19618.herokuapp.com/user/${email}`, {
+            fetch(`https://manufacture-deploy-again.vercel.app/user/${email}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'

@@ -23,7 +23,7 @@ const AddReview = () => {
 
         }
 
-        fetch('https://safe-plains-19618.herokuapp.com/review', {
+        fetch('https://manufacture-deploy-again.vercel.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

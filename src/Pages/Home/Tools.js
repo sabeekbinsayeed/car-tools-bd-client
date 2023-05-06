@@ -9,9 +9,10 @@ import Tool from './Tool';
 const Tools = () => {
     const [tools, setTools] = useState([])
     const navigate = useNavigate('');
-    // https://arcane-plateau-22519.herokuapp.com/products
+    // https://manufacture-deploy-again.vercel.app/
+    // https://manufacture-deploy-again.vercel.app/products
     useEffect(() => {
-        fetch('https://safe-plains-19618.herokuapp.com/tools').then(res => res.json()).then(data => setTools(data))
+        fetch('https://manufacture-deploy-again.vercel.app/tools').then(res => res.json()).then(data => setTools(data))
     }, [])
 
 

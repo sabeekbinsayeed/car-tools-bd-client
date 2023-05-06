@@ -4,7 +4,7 @@ import Review from './Review';
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('https://safe-plains-19618.herokuapp.com/review').then(res => res.json()).then(data => setReviews(data))
+        fetch('https://manufacture-deploy-again.vercel.app/review').then(res => res.json()).then(data => setReviews(data))
     }, [])
     return (
         <div style={{ minHeight: '100vh' }}>

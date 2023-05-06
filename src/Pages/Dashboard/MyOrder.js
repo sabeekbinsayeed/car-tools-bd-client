@@ -17,7 +17,7 @@ const MyOrder = () => {
     // const [orders, setOrders] = useState([])
 
     const [deletingInfo, setDeletingInfo] = useState(null);
-    const { data: orders, isLoading, refetch } = useQuery('doctors', () => fetch(`https://safe-plains-19618.herokuapp.com/order?email=${user.email}`, {
+    const { data: orders, isLoading, refetch } = useQuery('doctors', () => fetch(`https://manufacture-deploy-again.vercel.app/order?email=${user.email}`, {
         // headers: {
         //     authorization: `Bearer ${localStorage.getItem('accessToken')}`
         // }
@@ -40,10 +40,10 @@ const MyOrder = () => {
     }
 
     // useEffect(() => {
-    //     fetch(`https://safe-plains-19618.herokuapp.com/order?email=${user.email}`).then(res => res.json()).then(data => setOrders(data))
+    //     fetch(`https://manufacture-deploy-again.vercel.app/order?email=${user.email}`).then(res => res.json()).then(data => setOrders(data))
     // }, [])
 
-    //     fetch(`https://safe-plains-19618.herokuapp.com/order?email=${user.email}`, {
+    //     fetch(`https://manufacture-deploy-again.vercel.app/order?email=${user.email}`, {
     //         method: 'GET',
     //         // headers: {
     //         //     'authorization': `Bearer ${localStorage.getItem('accessToken')}`

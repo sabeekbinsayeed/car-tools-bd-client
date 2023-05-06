@@ -21,7 +21,7 @@ const ManageProducts = () => {
 
 
         console.log(tools)
-        fetch('https://safe-plains-19618.herokuapp.com/tools', {
+        fetch('https://manufacture-deploy-again.vercel.app/tools', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

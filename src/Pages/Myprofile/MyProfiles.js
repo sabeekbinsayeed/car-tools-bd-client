@@ -6,7 +6,7 @@ const MyProfiles = () => {
     const [user, loading, error] = useAuthState(auth);
     const [info, setInfo] = useState([]);
     useEffect(() => {
-        fetch(`https://safe-plains-19618.herokuapp.com/profile?email=admin@gmail.com`).then(res => res.json()).then(data => setInfo(data))
+        fetch(`https://manufacture-deploy-again.vercel.app/profile?email=admin@gmail.com`).then(res => res.json()).then(data => setInfo(data))
 
     }, [])
 

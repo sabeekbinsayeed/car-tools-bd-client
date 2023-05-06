@@ -20,7 +20,7 @@ const Purchase = () => {
     const [user, loading, error] = useAuthState(auth);
     useEffect(() => {
 
-        fetch(`https://safe-plains-19618.herokuapp.com/tools/${id}`).then(res => res.json()).then(data => setTool(data))
+        fetch(`https://manufacture-deploy-again.vercel.app/tools/${id}`).then(res => res.json()).then(data => setTool(data))
     }, [])
     const onSubmit = data => {
         console.log(data.quantity)
@@ -50,7 +50,7 @@ const Purchase = () => {
             }
             console.log(purchase)
             // send to your database 
-            fetch('https://safe-plains-19618.herokuapp.com/purchase', {
+            fetch('https://manufacture-deploy-again.vercel.app/purchase', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json',

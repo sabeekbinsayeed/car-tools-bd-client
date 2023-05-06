@@ -18,8 +18,8 @@ const Navbar = () => {
         <li><Link className='lg:text-white' to="/">Home</Link></li>
 
         <li><Link className='lg:text-white' to="/review">Review</Link></li>
-        <li><Link className='lg:text-white' to="/blogs">Blogs</Link></li>
-        <li><Link className='lg:text-white' to="/portfolio">Portfolio</Link></li>
+        {/* <li><Link className='lg:text-white' to="/blogs">Blogs</Link></li> */}
+        {/* <li><Link className='lg:text-white' to="/portfolio">Portfolio</Link></li> */}
         {
             user && <li><Link className='lg:text-white' to="/dashboard">Dashboard</Link></li>
         }
